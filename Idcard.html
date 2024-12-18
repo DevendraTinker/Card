@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .id-card {
+            border: 2px solid #ddd;
+            box-shadow: 1px -1px 15px black;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .id-header {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            background-color: #02283D;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+        .id-photo {
+            border-radius: 50%;
+            margin-top: 50px;
+            margin-bottom: -70px;
+            border: 5px solid #ddd;
+        }
+
+
+        .id-details {
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+         .details .info-value {
+            color: #8F6144;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+         .details h4{
+            margin-bottom: 0;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="id-card">
+        <div class="id-header">
+            <img class="id-photo" src="Devendra.jpg" width="100px" height="100px"/>
+        </div>
+        <div class="id-details">
+            <h1 class="m-name">Devendra Tinker</h1>
+            <div>
+                <div class="details">
+                    <h4 class="info-label">ID Number: </h4>
+                    <h4 class="info-value">101</h4>
+                </div>
+                <div class="details">
+                    <h4>Phone: </h4>
+                    <h4 class="info-value">+91 123456789</h4>
+                </div>
+                <div class="details">
+                    <h4>Email: </h4>
+                    <h4 class="info-value email">emailaddress@gmail.com</h4>
+                </div>
+                <div class="details">
+                    <h4>Address: </h4>
+                    <h4 class="info-value">Jaipur, India</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
